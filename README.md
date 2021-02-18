@@ -14,7 +14,7 @@ Script is useful if you have DNS nameserver handled by Plesk webservice and doma
 
 Script example:
 
-`certbot-auto certonly --force-renewal --manual --preferred-challenges=dns --manual-auth-hook /path/to/plesk-dns-api.sh --email me@example.com --agree-tos -d \*.example.com`
+`certbot-auto certonly --force-renewal --manual --preferred-challenges=dns --manual-auth-hook /path/to/plesk-api-prehook.sh --email me@example.com --agree-tos -d \*.example.com`
 
 Creates DNS record:
 
